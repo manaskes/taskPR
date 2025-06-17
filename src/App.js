@@ -18,7 +18,6 @@ function App() {
     <div className="bg-[#0d0d0d] text-white min-h-screen relative">
       <Sidebar isOpen={isSidebarOpen} setIsOpen={setIsSidebarOpen} />
 
-      {/* Dark overlay when sidebar is open on mobile */}
       {isSidebarOpen && (
         <div
           className="fixed inset-0 bg-black bg-opacity-50 z-30 lg:hidden"
@@ -32,13 +31,11 @@ function App() {
           <HomeSection />
 
           <section className="py-16 max-w-7xl mx-auto px-4 flex flex-col lg:flex-row items-center justify-between gap-8">
-            {/* Left Column */}
             <div className="flex-shrink-0 text-left lg:w-1/4">
               <h2 className="text-4xl font-bold leading-snug">Flutter's Dawn</h2>
               <p className="text-gray-400 mt-2">History of flutter</p>
             </div>
 
-            {/* Center Column */}
             <div className="lg:w-2/4 text-gray-300 text-md leading-relaxed">
               <p>
                 Uncover the fascinating story of Flutter in <strong>‘Flutter’s Dawn: History of Flutter’</strong>.
@@ -49,7 +46,6 @@ function App() {
               </p>
             </div>
 
-            {/* Right Column */}
             <div className="lg:w-1/4 text-center lg:text-right">
               <button className="bg-gradient-to-r from-cyan-400 to-blue-600 text-black px-6 py-2 rounded-full font-semibold flex items-center justify-center gap-2 hover:brightness-110">
                 BEGIN <span className="text-lg">↗</span>

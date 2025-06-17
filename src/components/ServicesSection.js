@@ -8,12 +8,36 @@ const services = [
       "Unlock endless possibilities with Flutter App Development. Build beautiful, high-performance applications for any platform – faster and easier than ever before. Ready to revolutionize your app experience? ",
     link: "Let's get started today!",
   },
-  { title: "UI/UX Design" },
-  { title: "Customization & Integration" },
-  { title: "Testing & Quality Assurance" },
-  { title: "Maintenance & Support" },
-  { title: "Consulting & Training" },
-  { title: "Migration & Upgrades" },
+  {
+    title: "UI/UX Design",
+    content: "Unlock endless possibilities with Flutter App Development. Build beautiful, high-performance applications for any platform – faster and easier than ever before. Ready to revolutionize your app experience? ",
+    link: "Let's get started today!",
+  },
+  {
+    title: "Customization & Integration",
+    content: "Unlock endless possibilities with Flutter App Development. Build beautiful, high-performance applications for any platform – faster and easier than ever before. Ready to revolutionize your app experience? ",
+    link: "Let's get started today!",
+  },
+  {
+    title: "Testing & Quality Assurance",
+    content: "Unlock endless possibilities with Flutter App Development. Build beautiful, high-performance applications for any platform – faster and easier than ever before. Ready to revolutionize your app experience? ",
+    link: "Let's get started today!",
+  },
+  {
+    title: "Maintenance & Support",
+    content: "Unlock endless possibilities with Flutter App Development. Build beautiful, high-performance applications for any platform – faster and easier than ever before. Ready to revolutionize your app experience? ",
+    link: "Let's get started today!",
+  },
+  {
+    title: "Consulting & Training",
+    content: "Unlock endless possibilities with Flutter App Development. Build beautiful, high-performance applications for any platform – faster and easier than ever before. Ready to revolutionize your app experience? ",
+    link: "Let's get started today!",
+  },
+  {
+    title: "Migration & Upgrades",
+    content: "Unlock endless possibilities with Flutter App Development. Build beautiful, high-performance applications for any platform – faster and easier than ever before. Ready to revolutionize your app experience? ",
+    link: "Let's get started today!",
+  },
 ];
 
 export default function ServicesSection() {
