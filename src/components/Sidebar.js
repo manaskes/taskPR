@@ -24,11 +24,11 @@ export default function Sidebar({ isOpen, setIsOpen }) {
                 </div>
 
                 {/* CTA Button */}
-               <div className="inline-block rounded-full p-[1px] bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">
-  <button className="bg-black text-white px-6 py-2 rounded-full font-medium hover:bg-neutral-900 transition">
-    CONTACT US
-  </button>
-</div>
+                <div className="inline-block rounded-full p-[1px] bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">
+                    <button className="bg-black text-white px-6 py-2 rounded-full font-medium hover:bg-neutral-900 transition">
+                        CONTACT US
+                    </button>
+                </div>
 
 
                 {/* Navigation */}
@@ -66,7 +66,7 @@ export default function Sidebar({ isOpen, setIsOpen }) {
                 </p>
                 {/* Optional copyright text */}
                 <p className="text-xs text-gray-600 mt-4">
-                    © {new Date().getFullYear()} Company Name. All rights reserved.
+                    © {new Date().getFullYear()} VAYUZ Technologies. All rights reserved.
                 </p>
             </div>
         </aside>
