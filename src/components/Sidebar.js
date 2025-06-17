@@ -5,14 +5,12 @@ export default function Sidebar({ isOpen, setIsOpen }) {
                 ${isOpen ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0 flex flex-col justify-between px-4 py-6`}
         >
             <div className="space-y-8">
-                {/* Logo Section */}
                 <div className="flex items-center justify-between">
                     <img
                         src="/logo.png"
                         alt="Company Logo"
-                        className="h-10 w-auto"  // Adjust height as needed
+                        className="h-10 w-auto"  
                     />
-                    {/* Close button for mobile (optional) */}
                     <button
                         className="lg:hidden text-gray-400 hover:text-white"
                         onClick={() => setIsOpen(false)}
@@ -23,7 +21,6 @@ export default function Sidebar({ isOpen, setIsOpen }) {
                     </button>
                 </div>
 
-                {/* CTA Button */}
                 <div className="inline-block rounded-full p-[1px] bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">
                     <button className="bg-black text-white px-6 py-2 rounded-full font-medium hover:bg-neutral-900 transition">
                         CONTACT US
@@ -31,7 +28,6 @@ export default function Sidebar({ isOpen, setIsOpen }) {
                 </div>
 
 
-                {/* Navigation */}
                 <nav>
                     <ul className="space-y-4">
                         {["App Development", "Challenges", "Hire Developer", "Community"].map((item, idx) => (
